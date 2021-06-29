@@ -1,15 +1,38 @@
 <template>
-  <div>
+  <div class="cover">
+    <section class="height" style="background-color: red">
 
-    <div class="row">
-      <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6 hide-sm-only pa-1" style="background-color:red;height:100vh;"></div>
-      <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6 pa-1" style="background-color:yellow;height:100vh;"></div>
-      <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6 pa-1" style="background-color:green;height:100vh;"></div>
-      <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6 pa-1" style="background-color:blue;height:100vh;"></div>
-    </div>
+    </section>
+    <section class="height" style="background-color: yellow"></section>
+    <section class="height" style="background-color: green"></section>
+    <section class="height" style="background-color: blue"></section>
   </div>
 </template>
 
 <script>
 export default {}
 </script>
+<style>
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  overflow-x: hidden;
+
+}
+.cover {
+  /* margin: -8px; */
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+}
+.white{
+  background-color: #fff;
+  height:44vh;
+  max-width: 100%;
+  margin: 3vh;
+  border-radius: 10px;
+}
+</style>

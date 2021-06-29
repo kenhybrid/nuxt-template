@@ -1,7 +1,4 @@
 // bottom navbar
-body {
-  margin: 0 0 60px 0;
-}
 
 .nav {
   position: fixed;
@@ -41,4 +38,17 @@ body {
 
 .nuxt-link-exact-active{
   color: #4A4AE4;
+}
+
+@media only screen and (max-width: 41rem) {
+  body {
+    margin: 0 0 0 0;
+  }
+
+}
+@media only screen and (min-width: 41rem) {
+  body {
+    margin: 0 0 0 0;
+  }
+
 }
