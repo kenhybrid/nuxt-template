@@ -8,10 +8,10 @@
       <i class="material-icons nav__icon">person</i>
       <span class="nav__text">Profile</span>
     </nuxt-link>
-    <!-- <a href="#" class="nav__link">
+    <a href="#" class="nav__link">
       <i class="material-icons nav__icon">devices</i>
       <span class="nav__text">Devices</span>
-    </a> -->
+    </a>
     <!-- <a href="#" class="nav__link">
       <i class="material-icons nav__icon">lock</i>
       <span class="nav__text">Privacy</span>
