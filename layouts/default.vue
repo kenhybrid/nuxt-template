@@ -1,6 +1,8 @@
 <template>
   <div>
-    <nuxt />
+    <div class="container">
+      <nuxt />
+    </div>
     <BottomNav />
   </div>
 </template>
